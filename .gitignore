@@ -1,0 +1,16 @@
+# Ignore all pickle files
+*.pkl
+
+# Optional: Ignore pickle files in specific folders
+# data/*.pkl
+# models/*.pkl
+
+# Other common ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.swp
+.DS_Store
