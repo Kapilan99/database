@@ -158,7 +158,7 @@ selected_date = st.sidebar.date_input(
 )
 
 # Load CSV for selected district
-csv_path = os.path.join("new processed", f"Cleaned_{district}.xls")  # keep .xls extension, but treat as CSV
+csv_path = os.path.join("new_processed", f"Cleaned_{district}.xls")  # keep .xls extension, but treat as CSV
 if os.path.exists(csv_path):
     df = pd.read_csv(csv_path, parse_dates=["timestamp_index"])
 else:
